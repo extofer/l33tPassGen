@@ -3,3 +3,7 @@ C:\Users\extofer\Documents\Dev\l33tPassGen\l33tPassGen\bin\Debug\l33tPassGen.pdb
 C:\Users\extofer\Documents\Dev\l33tPassGen\l33tPassGen\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\extofer\Documents\Dev\l33tPassGen\l33tPassGen\obj\Debug\l33tPassGen.dll
 C:\Users\extofer\Documents\Dev\l33tPassGen\l33tPassGen\obj\Debug\l33tPassGen.pdb
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPassGen\bin\Debug\l33tPassGen.dll
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPassGen\bin\Debug\l33tPassGen.pdb
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPassGen\obj\Debug\l33tPassGen.dll
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPassGen\obj\Debug\l33tPassGen.pdb

@@ -1,3 +1,5 @@
 C:\Users\extofer\Documents\Dev\l33tPassGen\l33tPassGen\bin\l33tPassGen.dll
 C:\Users\extofer\Documents\Dev\l33tPassGen\l33tPassGen\obj\Release\ResolveAssemblyReference.cache
 C:\Users\extofer\Documents\Dev\l33tPassGen\l33tPassGen\obj\Release\l33tPassGen.dll
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPassGen\bin\l33tPassGen.dll
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPassGen\obj\Release\l33tPassGen.dll

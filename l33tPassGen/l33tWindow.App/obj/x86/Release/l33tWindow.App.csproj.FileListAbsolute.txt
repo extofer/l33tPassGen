@@ -7,3 +7,10 @@ C:\Users\extofer\Documents\Dev\l33tPassGen\l33tWindow.App\obj\x86\Release\Genera
 C:\Users\extofer\Documents\Dev\l33tPassGen\l33tWindow.App\obj\x86\Release\GenerateResource.write.1.tlog
 C:\Users\extofer\Documents\Dev\l33tPassGen\l33tWindow.App\obj\x86\Release\l33tWindow.App.exe
 C:\Users\extofer\Documents\Dev\l33tPassGen\l33tPassGen\l33tWindow.App\obj\x86\Release\l33tWindow.App.exe
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tWindow.App\obj\x86\Release\l33tWindow.App.exe
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tWindow.App\bin\l33tWindow.App.exe
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tWindow.App\bin\l33tPassGen.dll
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tWindow.App\obj\x86\Release\l33tWindow.App.csprojResolveAssemblyReference.cache
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tWindow.App\obj\x86\Release\l33tWindow.App.frmL33t.resources
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tWindow.App\obj\x86\Release\l33tWindow.App.Properties.Resources.resources
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tWindow.App\obj\x86\Release\l33tWindow.App.csproj.GenerateResource.Cache

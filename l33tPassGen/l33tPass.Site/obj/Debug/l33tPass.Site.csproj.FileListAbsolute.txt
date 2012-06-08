@@ -1,0 +1,7 @@
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPass.Site\bin\l33tPass.Site.dll
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPass.Site\bin\l33tPass.Site.pdb
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPass.Site\bin\l33tPassGen.dll
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPass.Site\bin\l33tPassGen.pdb
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPass.Site\obj\Debug\l33tPass.Site.csprojResolveAssemblyReference.cache
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPass.Site\obj\Debug\l33tPass.Site.dll
+C:\Users\gvilla\Documents\Dev - Sandbox\l33tPassGen\l33tPassGen\l33tPass.Site\obj\Debug\l33tPass.Site.pdb
