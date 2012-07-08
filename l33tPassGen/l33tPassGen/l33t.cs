@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Reflection;
+using System.Text.RegularExpressions;
 
 namespace l33tPassGen
 {
@@ -19,30 +15,221 @@ namespace l33tPassGen
 
         public string ReplaceWord(string sWord)
         {
+            // Morse findings were that the following letters are the more frequent used letters in English words
 
-            string l33tWord = sWord.ToLower();
+            string l33TWord = sWord.ToLower();
+            int count = 0;
+            string[] substrings;
 
-            // Morse finding were that the following letters are the more frequent used letters in English words
+            l33TWord = l33TWord.Replace("e", "3"); // e is the most common used letter
+
+            substrings = Regex.Split(l33TWord, "t");
+            if (substrings.GetLength(0) > 1 )
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "t", substrings[0] + "+"); 
+                count++;
+            }
+
             
-            l33tWord = l33tWord.Replace("e", "3"); // e is the most common used letter
-            l33tWord = l33tWord.Replace("t", "+");
-            l33tWord = l33tWord.Replace("a", "@");
-            l33tWord = l33tWord.Replace("i", "1");
-            l33tWord = l33tWord.Replace("n", "N");
-            l33tWord = l33tWord.Replace("o", "0");
-            l33tWord = l33tWord.Replace("s", "$");
-            l33tWord = l33tWord.Replace("h", "H");
-            l33tWord = l33tWord.Replace("r", "R");
-            l33tWord = l33tWord.Replace("d", "D");
-            l33tWord = l33tWord.Replace("l", "|");
-            l33tWord = l33tWord.Replace("u", "U");
-            l33tWord = l33tWord.Replace("m", "M");
-            l33tWord = l33tWord.Replace("f", "pH");
-            l33tWord = l33tWord.Replace("g", "6");
-            l33tWord = l33tWord.Replace("p", "P");
-            l33tWord = l33tWord.Replace("b", "8");  
-            
-            return l33tWord;
+            substrings = Regex.Split(l33TWord, "a");
+            if (substrings.GetLength(0) > 1)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "a", substrings[0] + "@");
+                count++;
+            }
+
+
+            substrings = Regex.Split(l33TWord, "i");
+            if (substrings.GetLength(0) > 1)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "i", substrings[0] + "1");
+                count++;
+            } 
+
+            substrings = Regex.Split(l33TWord, "n");
+            if (substrings.GetLength(0) > 1)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "n", substrings[0] + "N");
+                count++;
+            }
+
+            substrings = Regex.Split(l33TWord, "o");
+            if (substrings.GetLength(0) > 1)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "o", substrings[0] + "0");
+                count++;
+            }
+
+
+            substrings = Regex.Split(l33TWord, "s");
+            if (substrings.GetLength(0) > 1 && count < 3)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "s", substrings[0] + "$");
+                count++;
+            }
+            else
+            {
+                if (count >= 3)
+                {
+                    return l33TWord;
+                }
+            }
+
+
+
+            substrings = Regex.Split(l33TWord, "h");
+            if (substrings.GetLength(0) > 1 && count < 3)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "h", substrings[0] + "H");
+                count++;
+            }
+            else
+            {
+                if (count >= 3)
+                {
+                    return l33TWord;
+                }
+            }
+
+
+            substrings = Regex.Split(l33TWord, "r");
+            if (substrings.GetLength(0) > 1 && count < 3)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "r", substrings[0] + "R");
+                count++;
+            }
+            else
+            {
+                if (count >= 3)
+                {
+                    return l33TWord;
+                }
+            }
+
+
+            substrings = Regex.Split(l33TWord, "d");
+            if (substrings.GetLength(0) > 1 && count < 3)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "d", substrings[0] + "D");
+                count++;
+            }
+            else
+            {
+                if (count >= 3)
+                {
+                    return l33TWord;
+                }
+            }
+
+
+            substrings = Regex.Split(l33TWord, "l");
+            if (substrings.GetLength(0) > 1 && count < 3)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "l", substrings[0] + "|");
+                count++;
+            }
+            else
+            {
+                if (count >= 3)
+                {
+                    return l33TWord;
+                }
+            }
+
+
+            substrings = Regex.Split(l33TWord, "u");
+            if (substrings.GetLength(0) > 1 && count < 3)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "u", substrings[0] + "U");
+                count++;
+            }
+            else
+            {
+                if (count >= 3)
+                {
+                    return l33TWord;
+                }
+            }
+
+            substrings = Regex.Split(l33TWord, "m");
+            if (substrings.GetLength(0) > 1 && count < 3)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "m", substrings[0] + "M");
+                count++;
+            }
+            else
+            {
+                if (count >= 3)
+                {
+                    return l33TWord;
+                }
+            }
+
+
+            substrings = Regex.Split(l33TWord, "f");
+            if (substrings.GetLength(0) > 1 && count < 3)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "f", substrings[0] + "ph");
+                count++;
+            }
+            else
+            {
+                if (count >= 3)
+                {
+                    return l33TWord;
+                }
+            }
+
+
+
+            substrings = Regex.Split(l33TWord, "g");
+            if (substrings.GetLength(0) > 1 && count < 3)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "g", substrings[0] + "6");
+                count++;
+            }
+            else
+            {
+                if (count >= 3)
+                {
+                    return l33TWord;
+                }
+            }
+
+
+            substrings = Regex.Split(l33TWord, "p");
+            if (substrings.GetLength(0) > 1 && count < 3)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "p", substrings[0] + "P");
+                count++;
+            }
+            else
+            {
+                if (count >= 3)
+                {
+                    return l33TWord;
+                }
+            }
+
+
+            substrings = Regex.Split(l33TWord, "b");
+            if (substrings.GetLength(0) > 1 && count < 3)
+            {
+                l33TWord = l33TWord.Replace(substrings[0] + "b", substrings[0] + "8"); 
+                count++;
+            }
+            else
+            {
+                if (count >= 3)
+                {
+                    return l33TWord;
+                }
+            }
+
+
+          
+
+            return l33TWord;
 
         }
 
