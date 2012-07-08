@@ -51,7 +51,29 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap-responsive.css" />
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\style.css" />
     <Content Include="default.aspx" />
+    <Content Include="js\libs\bootstrap\alert.js" />
+    <Content Include="js\libs\bootstrap\bootstrap.js" />
+    <Content Include="js\libs\bootstrap\bootstrap.min.js" />
+    <Content Include="js\libs\bootstrap\button.js" />
+    <Content Include="js\libs\bootstrap\carousel.js" />
+    <Content Include="js\libs\bootstrap\collapse.js" />
+    <Content Include="js\libs\bootstrap\dropdown.js" />
+    <Content Include="js\libs\bootstrap\modal.js" />
+    <Content Include="js\libs\bootstrap\popover.js" />
+    <Content Include="js\libs\bootstrap\scrollspy.js" />
+    <Content Include="js\libs\bootstrap\tab.js" />
+    <Content Include="js\libs\bootstrap\tooltip.js" />
+    <Content Include="js\libs\bootstrap\transition.js" />
+    <Content Include="js\libs\bootstrap\typeahead.js" />
+    <Content Include="js\libs\jquery-1.7.2.min.js" />
+    <Content Include="js\libs\modernizr-2.5.3-respond-1.1.0.min.js" />
+    <Content Include="js\script.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
